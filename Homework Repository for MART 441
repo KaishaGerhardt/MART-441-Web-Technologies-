@@ -1,0 +1,18 @@
+
+Homework Respository for MART 441
+
+Base URL for base site:
+https://github.com/KaishaGerhardt/MART-220-Creative-Coding-II-
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kaisha's 441 Site</title>
+    </head>
+    <body>
+        <h1>Kaisha's 441 Homework Site</h1>
+
+        <p>This is the main homepage for Michael Cassens's example homework site for mart441. 
+        This website is where all live examples will be located throughout the semester.</p>
+    </body>
+</html>

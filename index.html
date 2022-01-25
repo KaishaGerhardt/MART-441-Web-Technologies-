@@ -4,13 +4,35 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Kaisha's 441 Site</title>
+        <title>Kaisha's Little Site</title>
     </head>
     <body>
         <h1>Kaisha's 441 Homework Site</h1>
 
-        <p>This is the main homepage for Michael Cassens's example homework site for mart441. 
-        This website is where all live examples will be located throughout the semester.</p>
+        <p>hi! I am Kaisha Gerhardt or Kai$ha for short. .</p>
+
+        let bg;
+let y = 0;
+
+function setup() {
+  // The background image must be the same size as the parameters
+  // into the createCanvas() method. In this program, the size of
+  // the image is 720x400 pixels.
+  bg = loadImage(Eggplant');
+  createCanvas(720, 400);
+}
+
+function draw() {
+  background(bg);
+
+  stroke(226, 204, 0);
+  line(0, y, width, y);
+
+  y++;
+  if (y > height) {
+    y = 0;
+  }
+}
 
         Homework Respository for MART 441
 

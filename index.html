@@ -1,42 +1,103 @@
-
-
-
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Kaisha's Little Site</title>
-    </head>
-    <body>
-        <h1>Kaisha's 441 Homework Site</h1>
 
-        <p>hi! I am Kaisha Gerhardt or Kai$ha for short. .</p>
+<head>
+    <meta charset="utf-8">
+    <title>Kaisha Gerhardt Site</title>
+    <meta name="author" content="Kaisha Gerhardt`">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./HW1/styles.css">
+</head>
 
-        let bg;
-let y = 0;
+<body>
 
-function setup() {
-  // The background image must be the same size as the parameters
-  // into the createCanvas() method. In this program, the size of
-  // the image is 720x400 pixels.
-  bg = loadImage(Eggplant');
-  createCanvas(720, 400);
-}
+    <div class="hero">
+        <div class="title">
+            <h1>Michael Cassens</h1>
+            <h2>MART 441 - Web Tech</h2>
+            <h2>Homework Site</h2>
+            <div class="nav">
+                <a href="#Who The Heck is Kaisha">
+                    <div class="nav-item">Information</div>
+                </a>
+                <a href="#Art Work">
+                    <div class="nav-item">Course Information</div>
+                </a>
+                <a href="">
+                    <div class="nav-item">Looking at the World</div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--end hero-->
 
-function draw() {
-  background(bg);
+    <!-- Container that will "reveal" the background image. -->
+    <!-- This is our parallax-like effect. -->
+    <div id="Who The Heck is Kaisha">
+        <div class="description-container">
+            <div class="description">
 
-  stroke(226, 204, 0);
-  line(0, y, width, y);
+                <h1>Who is Kaisha?</h1>
+                <p>Kaisha Gerhardt:
+                    A femme fatale, but the 19th-century French definition, which is literally “disastrous woman”.</p>
+                <p>However, she is mostly an artist and a proud mom of two cats.</p>
+                <p>She is currently working towards a BFA in Media Arts with a focus on Game Design. Alongside minoring in Business Administration
+                <p>She has recently been working with the Milwaukee Railroad Historical Association on creating a book about Taft, Montana. 
+                <p>She is the graphic designer for the book has created the front and back cover, maps, and multiple illustrations.</p>  
+                <p>The book is scheduled to be published in 2022. </p>
+                <p>Kaisha’s most recent work opportunity is working a paid internship with Open AIR (a place-based Artist-in-Residence program) for the 2022 year. 
+                </p> <p>Kaisha is a proud parent to her two cats named Chewy and Cha-Chi. </p> 
+                <p>Twin brothers who are spunky, sassy, and over the weight limit.</p>
 
-  y++;
-  if (y > height) {
-    y = 0;
-  }
-}
+            </div>
+        </div>
+    </div>
+    <!-- End Parallax-Like -->
 
-        Homework Respository for MART 441
+    <!-- A fake menu, this will re-cover the background image. -->
+    <div class="menu" id="Art Work">
+        <h1>Information about the Course</h1>
+        <div class="menu-group-container">
 
-Base URL for base site:
-https://github.com/KaishaGerhardt/MART-220-Creative-Coding-II-
-    </body>
+            <div class="menu-group">
+
+                <div class="menu-head">Overview</div>
+                <div>
+                    <div class="menu-item">Building on the principles and techniques covered in Intro to Web Design ( MART 341 ), this project-based class focuses on media integration, interactivity, client-side development, and server-side development for the presentation and development of artistic websites.</div>
+                    <div class="menu-item">This online advanced web technologies course will explore the latest in web technologies. This will began with a refresher of HTML5 and CSS3. Next will be a thorough exploration of JavaScript (JS) for client-side site development and interaction. The final topic will touch on the power of JS and node.js for server-side development. A number of JavaScript libraries will be explored for how they can speed up the artistic process.</div>
+                </div>
+            </div>
+
+            <div class="menu-group">
+
+                <div class="menu-head">Objectives</div>
+                <div>
+                    <div class="menu-item">- Feel comfortable creating static sites with advanced HTML5 & CSS3 techniques.</div>
+                    <div class="menu-item">- Be capable of using JavaScript (JS) to create "interactive elements" and manipulate the DOM.</div>
+                    <div class="menu-item">- Be capable of incorporating external JS libraries, such as d3 or tone.js to create engaging sites.</div>
+                    <div class="menu-item">- Have a basic understanding of the role node.js plays in web development.</div>
+                    <div class="menu-item">- Be capable of creating a basic web-socket based web-app for multi-user interaction.</div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- End Menu -->
+ 
+        <!-- A fake menu, this will re-cover the background image. -->
+       
+            
+                <div id="information">
+                    <div class="description-container">
+                        <div class="description">
+            
+                            <h1>Looking at the World</h1>
+                            <p>I have worked in the industry for over 20 years. I specialize in small to medium sized businesses</p>
+                            <p>I focus on my clients.  I am a fast learner and I make sure that their needs are always addressed to the best of my ability.</p>
+            
+                        </div>
+                    </div>
+                </div>
+        </div> <!-- End Menu -->
+</body>
 </html>

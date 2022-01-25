@@ -9,11 +9,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./HW1/styles.css">
+    <style>
+        body, html {
+          height: 100%;
+          margin: 0;
+        }
+        
+        .bg {
+          /* The image used */
+          background-image:src="images/Phrog.jpg"        
+          /* Full height */
+          height: 100%; 
+        
+          /* Center and scale the image nicely */
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        </style>
 </head>
 
-<body>
-<video autoplay loop id="IMG_0112.mov"></video>
-<source><video src="IMG_0112.mov"></video>
+<body>  
     <div class="hero">
         <div class="title">
             
@@ -110,5 +126,8 @@ height="500"
                     </div>
                 </div>
         </div> <!-- End Menu -->
+        <video autoplay loop id="winter">
+            <source src="IMG_0112.mov" type="video/mp4">
+        </video>
 </body>
 </html>

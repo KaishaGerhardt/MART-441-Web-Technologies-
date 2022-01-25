@@ -1,2 +1,6 @@
 # MART-441-Web-Technologies-
-Collection of work for MART 441
+
+Homework Repository for MART 441
+
+Base URL for site:
+https://kaishagerhardt.github.io/MART-441-Web-Technologies-/
